@@ -1,0 +1,98 @@
+body {
+    font-family: 'Playfair Display', sans-serif; /* Body text uses Lato */
+    color: #000000be; /* Example color for body text */
+    background-color: #e0ffe7; /* Example background color */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', sans-serif; /* Headings use Poppins */
+    font-weight: 700; /* Bold weight for headings */
+    color: #000000; /* Example color for headings */
+    margin: 20px 30px 20px;
+    
+}
+
+.section {
+    margin-right: 70px auto; /* Adds 40px of margin above and below, centers section */
+    padding: 20px; /* Adds padding inside the section */
+    max-width: 600px; /* Limits the width of the section */
+    background-color: #c8ffda; /* Optional: Light background for section */
+    border-radius: 40px; /* Optional: Rounded corners for aesthetic */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+}
+
+#about-me {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+#about-me .about-text {
+    width: 88%;
+    font-family: 'Lato', sans-serif;
+}
+
+#about-me .about-images {
+    width: 45%;
+    text-align: right;
+    margin-right: 370px
+}
+
+#about-me .about-images img {
+    max-width: 100%;
+    height: 70%;
+    border-radius: 15%; /* Optional: Makes the image circular */
+}
+
+#work-experience{
+    width: 88%
+    text-align: left;
+    margin-left: 20px
+}
+p {
+    margin: 0 50px 20px;
+    line-height: 1.6; /* Ensures good readability */
+}
+.center-text {
+    text-align: center; /* Centers text horizontally */
+}
+
+.left-spaced-content {
+    padding-left: 50px; /* Adds 30 pixels of space inside the left side */
+    margin-left: 60px; /* Adds 30 pixels of space outside the left side */
+}
+
+/* nav bar */
+.navbar {
+    background: linear-gradient(180deg, #8cd0b7, #bce7c6);
+    padding: 15px 0; /*s Padding for spacing */
+    text-align: center; /* Center the navbar */
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove default bullet points */
+    margin: 0;
+    padding: 0;
+    display: inline-block; /* Center list items horizontally */
+}
+
+.navbar li {
+    display: inline; /* Display list items in a row */
+    margin: 0 15px; /* Space between items */
+}
+
+.navbar a {
+    text-decoration: none; /* Remove underline */
+    color: rgb(0, 0, 0); /* Text color */
+    font-family: 'Playfair Display', sans-serif; /* Font for nav links */
+    font-size: 20px; /* Font size */
+    padding: 10px 20px; /* Padding for clickable area */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.navbar a:hover {
+    background-color: #47c892; /* Lighter pastel green on hover */
